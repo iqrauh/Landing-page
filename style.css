@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Finger+Paint&family=Roboto:ital,wght@1,100&family=Trade+Winds&family=Ubuntu:ital,wght@0,300;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 80vw;
+    font-family: 'Finger Paint', sans-serif;
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Trade Winds', system-ui;
+    font-family: 'Ubuntu', sans-serif; */
+}
+.navbar{
+    display: flex;
+    height: 67px;
+        
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+}
+.topleft{
+    width: 50%;
+    /* padding: 12px 0; */
+    /* height: 50vh; */
+}
+.topright{
+    height: 50vh;
+    width: 50%;
+}
+.section1{
+    color: solid black;
+    
+}
+.logo{
+    font-size: 1.3rem;
+}
+.section2{
+    padding-left: 63px;
+    padding-right: 63px;
+}
+.section2 h1{
+    font-size: 2.5rem;
+    padding: 15px 0;
+}
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 23vw;
+    border: 2px solid rgb(204, 129, 17);
+    border-radius: 8px;
+    text-align: center;
+
+}
+.box h2{
+    font-size: 2rem;
+}
+.highlighted {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+.box ul {
+    list-style-type: none;
+}
+.box ul li{
+    margin: 12px 2px;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+}
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media a {
+    margin: 0 10px;
+}
+
+.social-media img {
+    width: 40px;
+    height: auto;
+}
